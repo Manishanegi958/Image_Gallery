@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Image Gallery</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- Header -->
+    <header>
+        <h1>✨ My Image Gallery</h1>
+        <p>Explore beautiful moments</p>
+    </header>
+
+    <!-- Filter Buttons -->
+    <section class="filters">
+        <button class="filter-btn active" data-filter="all">All</button>
+        <button class="filter-btn" data-filter="nature">Nature</button>
+        <button class="filter-btn" data-filter="city">City</button>
+        <button class="filter-btn" data-filter="food">Food</button>
+        <button class="filter-btn" data-filter="travel">Travel</button>
+    </section>
+
+    <!-- Gallery -->
+    <main class="gallery">
+
+        <div class="gallery-item" data-category="nature">
+            <img src="https://images.unsplash.com/photo-1500530855697-b586d89ba3ee"
+                 alt="Nature"
+                 data-title="Beautiful Nature">
+            <div class="overlay">Beautiful Nature</div>
+        </div>
+
+        <div class="gallery-item" data-category="nature">
+            <img src="https://images.unsplash.com/photo-1501785888041-af3ef285b470"
+                 alt="Mountain"
+                 data-title="Mountain View">
+            <div class="overlay">Mountain View</div>
+        </div>
+
+        <div class="gallery-item" data-category="nature">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT7GjqolqA65vVQruaLr-zEm1tGi0Zq_dOj4eBXmCha-g&s=10"
+                 alt="Mountain"
+                 data-title="Snowy Mountain">
+            <div class="overlay">Snowy Mountain</div>
+        </div>
+
+        <div class="gallery-item" data-category="nature">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQb9VcKgwSxr4aa6RAdEGFY6A-mzBiD9WBJpGqVhcnMeQ&s=10"
+                 alt="Mountain"
+                 data-title="Dessert">
+            <div class="overlay">Dessert</div>
+        </div>
+
+        <div class="gallery-item" data-category="city">
+            <img src="https://images.unsplash.com/photo-1477959858617-67f85cf4f1df"
+                 alt="City"
+                 data-title="Beautiful City">
+            <div class="overlay">Beautiful City</div>
+        </div>
+
+        <div class="gallery-item" data-category="city">
+            <img src="https://images.unsplash.com/photo-1449824913935-59a10b8d2000"
+                 alt="City Street"
+                 data-title="City Street">
+            <div class="overlay">City Street</div>
+        </div>
+
+        <div class="gallery-item" data-category="city">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTFbK8bir64Ee2hY1woykiStfOgCHYcZUxBOI-2fNsZlg&s=10"
+                 alt="City Street"
+                 data-title="Downtown">
+            <div class="overlay">Downtown</div>
+        </div>
+
+        <div class="gallery-item" data-category="city">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQLkyZNbDpO93juFIRUtKeWIWYC1tjJ3nr0sDcnfanmFw&s=10"
+                 data-title="Shopping Streets">
+            <div class="overlay">Shopping streets</div>
+        </div>
+
+        <div class="gallery-item" data-category="food">
+            <img src="https://images.unsplash.com/photo-1540189549336-e6e99c3679fe"
+                 alt="Healthy Food"
+                 data-title="Healthy Food">
+            <div class="overlay">Healthy Food</div>
+        </div>
+
+        <div class="gallery-item" data-category="food">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRBuKB-UW3DawsP98EvIoNkM8TVkx2Kf9ziqs1xhERJdA&s=10"
+                 alt="Healthy Food"
+                 data-title="Icecream">
+            <div class="overlay">Icecream</div>
+        </div>
+
+        <div class="gallery-item" data-category="food">
+            <img src="https://images.unsplash.com/photo-1565958011703-44f9829ba187"
+                 alt="Dessert"
+                 data-title="Delicious Dessert">
+            <div class="overlay">Delicious Dessert</div>
+        </div>
+
+        <div class="gallery-item" data-category="food">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTtXlykfb0cHesbpjaiR3BpbRMkaD8jsRlSFURYV4dslA&s=10"
+                 alt="Dessert"
+                 data-title="Drinks">
+            <div class="overlay">Drinks</div>
+        </div>
+
+        <div class="gallery-item" data-category="travel">
+            <img src="https://images.unsplash.com/photo-1469474968028-56623f02e42e"
+                 alt="Travel"
+                 data-title="Travel Adventure">
+            <div class="overlay">Travel Adventure</div>
+        </div>
+
+        <div class="gallery-item" data-category="travel">
+            <img src="https://images.unsplash.com/photo-1507525428034-b723cf961d3e"
+                 alt="Beach"
+                 data-title="Beautiful Beach">
+            <div class="overlay">Beautiful Beach</div>
+        </div>
+
+        <div class="gallery-item" data-category="travel">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQTLf828W2VlbfoS0UAfsSjsBDQdY3kj5YJdZq9LIH13w&s=10"
+                 alt="Beach"
+                 data-title="Camping">
+            <div class="overlay">Camping</div>
+        </div>
+
+         <div class="gallery-item" data-category="travel">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR34MSjiAhxM1LqY-nNBEKGl9ojrlUkgZH8l4fyJAl2Lw&s=10"
+                 alt="Beach"
+                 data-title="Road Trip">
+            <div class="overlay">Road  Trip</div>
+        </div>
+
+    </main>
+
+
+    <!-- Lightbox -->
+    <div class="lightbox" id="lightbox">
+
+        <button class="close" id="close">&times;</button>
+
+        <button class="nav-btn prev" id="prev">&#10094;</button>
+
+        <div class="lightbox-content">
+            <img id="lightbox-img" src="" alt="">
+            <h2 id="lightbox-title"></h2>
+        </div>
+
+        <button class="nav-btn next" id="next">&#10095;</button>
+
+    </div>
+
+
+    <footer>
+        <p>© 2026 My Image Gallery | Created with HTML, CSS & JavaScript</p>
+    </footer>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
